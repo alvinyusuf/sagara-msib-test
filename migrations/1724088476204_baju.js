@@ -16,9 +16,9 @@ exports.up = (pgm) => {
       default: 's',
     },
     harga: {
-      type: 'DECIMAL',
+      type: 'INTEGER',
       notNull: true,
-      default: 0.0,
+      default: 0,
     },
     stok: {
       type: 'INTEGER',
